@@ -1,0 +1,1 @@
+This dir contains all personal practices questions for alx-backend sprint.
