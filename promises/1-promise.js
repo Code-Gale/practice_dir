@@ -1,4 +1,4 @@
-function getFullResponseFromAPI(success: boolean) {
+function getFullResponseFromAPI(success) {
   return new Promise((resolve, reject) => {
     if (success) {
       resolve({
