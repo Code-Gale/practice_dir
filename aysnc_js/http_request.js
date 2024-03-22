@@ -7,6 +7,5 @@ request.addEventListener('readystatechange', () => {
     console.log("Couldn't fetch data")
   }
 })
-
 request.open('GET', 'https://dummyjson.com/products/')
 request.send();
