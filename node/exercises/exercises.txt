@@ -1,0 +1,27 @@
+ Let me provide some more focused coding exercises based on the topics you've covered so far: modules, file system operations, streams, and buffers.
+
+Create a Module
+Create a new module called calculator.js that exports functions for basic arithmetic operations (addition, subtraction, multiplication, and division).
+In another file, import the calculator module and use the exported functions to perform calculations.
+Read and Write Files
+Create a Node.js program that reads the contents of a text file using the fs module.
+Convert the contents of the file to uppercase using the built-in String methods.
+Write the transformed text to a new file.
+Implement a Readable Stream
+Create a readable stream that generates random numbers at a specified interval.
+Attach an event listener to the data event of the stream to log the generated numbers to the console.
+Implement a Writable Stream
+Create a writable stream that writes data to a file.
+Generate a large dataset (e.g., an array of strings) programmatically.
+Use the writable stream to write the dataset to a file in chunks.
+Pipe Streams
+Create a readable stream that reads the contents of a file.
+Create a transform stream that converts the data to uppercase.
+Create a writable stream that writes the transformed data to a new file.
+Use the pipe method to connect the readable stream to the transform stream, and then to the writable stream.
+Create and Manipulate Buffers
+Create a buffer containing a string of your choice.
+Convert the buffer to a hex-encoded string.
+Convert the hex-encoded string back to a buffer.
+Concatenate two or more buffers together.
+These exercises should help you practice the concepts you've learned so far, including modules, file system operations, streams, and buffers. Let me know if you need any clarification or have additional questions while working on these exercises.
