@@ -12,8 +12,6 @@ const getData = () => {
     request.send();
   });
 };
-console.log(1);
-console.log(2);
 getData()
   .then((data) => {
     console.log("callback fired");
@@ -22,5 +20,4 @@ getData()
   .catch((err) => {
     console.log(err);
   });
-console.log(1);
-console.log(2);
+s

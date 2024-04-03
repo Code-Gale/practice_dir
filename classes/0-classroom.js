@@ -3,8 +3,11 @@ export default class ClassRoom{
     this._maxStudentsSize = maxStudentsSize
   }
   
+  function initializeRooms(){
+    classes = [{
+      ClassRoom 
+    }]
+  }
 }
 
-
-const room = new ClassRoom(10);
-console.log(room._maxStudentsSize)
+console.log(initializeRooms());
