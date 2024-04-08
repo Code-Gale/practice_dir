@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Blog Ninja</title>
+    <title> Blog Ninja | <%= title %> </title>
 </head>
 <body>
     <nav>
@@ -16,9 +16,19 @@
         <li><a href="/about">About</a></li>
         <li><a href="/blogs/create"> New Blogs</a></li>
         </ul>
-    </n av>
-    <div class="blogs-content">
+    </nav>
+    <div class="blogs content">
         <h2>All Blogs</h2>
+        <% if (blogs.length > 0) { %>
+            <% blogs.forEach(blog => { %>
+                <div class="content">
+                    <h2 class="title"> <%= blog.title %></h2>
+                    <p class="snippet"> <%= blog.snippet %></p>
+                </div>
+           <% }) %>
+        <% } %>
+         
     </div>
+    
 </body>
 </html>

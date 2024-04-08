@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing 123</title>
+    <title>Blog Ninja | <%= title %></title>
 </head>
 <body>
-    <h1>OOPS - LOOKS LIKE THIS PAGE DOESN'T EXISTS</h1>
-    <p>Please check your url.</p>
+    <nav>
+        <div class="site-title>
+            <a href="/"><h1>Blog Ninja</h1></a>
+            <p>A Net Ninja Site</p>
+        </div>
+        <ul>
+            <li><a href="/">Blogs</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/blogs/create">New Blogs</a></li>  
+        </ul>
+    </nav>
+
+    <div class="not-found content">
+        <h2>404</h2>
+        OOPS, page not found
+    </div>
 </body>
 </html>
